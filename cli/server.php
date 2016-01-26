@@ -82,9 +82,9 @@ class WebSocket extends Swoole\Protocol\WebSocket
                     $json = json_encode([
                         'type' => 'message',
                         'id' => $this->userId[$client_id],
-                        'message' => iconv('GBK', 'UTF-8', $message['message'])
+                        'message' =>$message['message']
                     ]);
-                    $this->broadcast($client_id, $json);
+                    $this->broadcast($client_id, $json,false);
                     return;
             }
         }

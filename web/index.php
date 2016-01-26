@@ -44,7 +44,7 @@ if(!function_exists('is_mobile'))
 		</div>
 		<aside id="info">
 			<section id="share">
-				<a rel="external" href="http://github.com/walkor/workerman-todpole" title="workerman-todpole at GitHub">源代码：<img src="css/images/github.png" alt="fork on github"></a>
+				<a rel="external" href="https://github.com/QinLingFeng/SwooleTodpole" title="workerman-todpole at GitHub">源代码：<img src="css/images/github.png" alt="fork on github"></a>
 				&nbsp;&nbsp;
 			</section>
 			<section id="wtf">
